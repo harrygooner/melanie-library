@@ -1,6 +1,6 @@
-import { index, integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
+import { index, integer, pgTable, text, timestamp } from "drizzle-orm/pg-core";
 
-export const documents = sqliteTable(
+export const documents = pgTable(
   "documents",
   {
     id: text("id").primaryKey(),
@@ -12,12 +12,12 @@ export const documents = sqliteTable(
     sizeBytes: integer("size_bytes").notNull(),
     uploadedById: text("uploaded_by_id").notNull(),
     uploadedByEmail: text("uploaded_by_email").notNull(),
-    createdAt: integer("created_at", { mode: "timestamp_ms" }).notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull(),
   },
   (table) => [index("idx_documents_product_id").on(table.productId)],
 );
 
-export const documentRequests = sqliteTable(
+export const documentRequests = pgTable(
   "document_requests",
   {
     id: text("id").primaryKey(),
@@ -29,8 +29,8 @@ export const documentRequests = sqliteTable(
     requesterEmail: text("requester_email").notNull(),
     status: text("status").notNull().default("pending"),
     resolvedByEmail: text("resolved_by_email"),
-    createdAt: integer("created_at", { mode: "timestamp_ms" }).notNull(),
-    resolvedAt: integer("resolved_at", { mode: "timestamp_ms" }),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull(),
+    resolvedAt: timestamp("resolved_at", { withTimezone: true }),
   },
   (table) => [
     index("idx_document_requests_product_id").on(table.productId),

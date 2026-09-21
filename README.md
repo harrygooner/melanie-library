@@ -22,36 +22,29 @@ npm run build
 npm start
 ```
 
-Build tạo `dist/client` và `dist/server` cho Cloudflare Workers. Đây là **React 19 + Vinext/Vite**, với cấu trúc Next.js App Router và Tailwind CSS 4; không phải một file HTML tĩnh và không thể chỉ upload lên GitHub Pages để chạy backend.
+Build tạo `.next` cho Vercel bằng Next.js App Router và Tailwind CSS 4. Đây là ứng dụng server-rendered, không phải một file HTML tĩnh.
 
 ## Cấu hình
 
-Xem `.env.example`. Bản hiện tại không yêu cầu API key ứng dụng. `DB` (Cloudflare D1) và `BUCKET` (Cloudflare R2) là bindings trong `wrangler.jsonc`, không phải giá trị chuỗi trong `.env`.
+Xem `.env.example`. Vercel cần `DATABASE_URL` cho Neon/Vercel Postgres và `BLOB_READ_WRITE_TOKEN` cho Vercel Blob.
 
-Nếu deploy bằng CI, cấu hình `CLOUDFLARE_API_TOKEN` và `CLOUDFLARE_ACCOUNT_ID` trong GitHub Secrets/environment của CI. Không commit giá trị thật. Có thể dùng `npx wrangler login` khi deploy từ máy cá nhân.
+Tạo hai integration này trong Vercel Project Settings trước khi deploy.
 
-## Deploy độc lập lên Cloudflare
-
-```sh
-npx wrangler login
-npx wrangler d1 create sapharchem-solutions-library
-npx wrangler r2 bucket create sapharchem-documents
-```
-
-Điền `database_id` do lệnh tạo D1 trả về vào `wrangler.jsonc` (thay UUID mẫu). Nếu dùng tên resource khác, sửa `database_name` và `bucket_name` tương ứng; giữ binding `DB` và `BUCKET`.
+## Deploy lên Vercel
 
 ```sh
-npm run db:migrate:remote
-npm run deploy
+npm install
+npm run db:push
+npm run build
 ```
 
-Lệnh deploy build lại trước khi upload. Có thể gắn domain riêng trong Cloudflare Dashboard. Các file `.openai/` và helper Sites gốc được giữ để bảo toàn source, nhưng cấu hình chạy độc lập dùng `wrangler.jsonc`, không phụ thuộc project Sites cũ.
+Trong Vercel, chọn framework preset `Next.js`, giữ Build Command `npm run build` và để trống Output Directory. Vercel tự dùng `.next`.
 
 ## Dữ liệu và chức năng đi kèm
 
 - `app/data/`: danh mục nguyên liệu, công thức và dữ liệu tra cứu có trong source.
 - `public/`: ảnh, logo, icon, catalog PDF và PDF công thức hiện tại.
-- `app/api/`, `db/`, `drizzle/`: đăng nhập email, upload/download tài liệu, request và trạng thái xử lý, schema và migrations.
+- `app/api/`, `db/`: đăng nhập email, upload/download tài liệu, request và trạng thái xử lý. Database dùng PostgreSQL và file dùng Vercel Blob.
 - Source hiện tại dùng `mailto:` cho email request/phản hồi. Gửi email tự động qua Resend và tải folder tự phân bổ chưa được hoàn thành trong bản đang xuất bản; bản export không tuyên bố có các chức năng này.
 
 **Không có bản sao dữ liệu D1/R2 đang vận hành trong ZIP này.** Các tài liệu admin đã tải lên, file Imderma trong kho riêng, metadata tài liệu và lịch sử request không phải file source. Khi chạy local hoặc tạo cloud resources mới, các phần đó bắt đầu trống. Để chuyển đầy đủ dữ liệu vận hành, cần quyền xuất D1 và toàn bộ object R2 từ dịch vụ đang lưu trữ, rồi nhập lại vào tài khoản Cloudflare của bạn, giữ nguyên `object_key`. Schema có trong migrations. Không trỏ database mới tới kho object cũ hoặc ngược lại.

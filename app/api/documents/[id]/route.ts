@@ -1,9 +1,9 @@
-import { env } from "cloudflare:workers";
 import { eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
 
 import { getEmailSessionUser } from "@/app/email-access";
 import { canManageDocuments } from "@/app/lib/authz";
+import { getDocument } from "@/app/lib/blob-storage";
 import { getDb } from "@/db";
 import { documents } from "@/db/schema";
 
@@ -45,7 +45,7 @@ export async function GET(
     return NextResponse.json({ error: "Không tìm thấy tài liệu." }, { status: 404 });
   }
 
-  const object = await env.BUCKET.get(row.objectKey);
+  const object = await getDocument(row.objectKey);
   if (!object) {
     return NextResponse.json(
       { error: "Tệp hiện không khả dụng." },
@@ -54,7 +54,8 @@ export async function GET(
   }
 
   const fallbackName = row.filename.replace(/[^a-zA-Z0-9._-]+/g, "_");
-  return new Response(object.body, {
+  const objectResponse = await fetch(object.url);
+  return new Response(objectResponse.body, {
     headers: {
       "Content-Type": row.contentType,
       "Content-Length": String(row.sizeBytes),

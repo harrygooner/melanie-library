@@ -1,9 +1,9 @@
-import { env } from "cloudflare:workers";
 import { desc, eq } from "drizzle-orm";
 import { NextResponse } from "next/server";
 
 import { getEmailSessionUser } from "@/app/email-access";
 import { canManageDocuments } from "@/app/lib/authz";
+import { deleteDocument, uploadDocument } from "@/app/lib/blob-storage";
 import { getDb } from "@/db";
 import { documents } from "@/db/schema";
 
@@ -99,14 +99,7 @@ export async function POST(request: Request) {
   const contentType = file.type || "application/octet-stream";
   const createdAt = new Date();
 
-  await env.BUCKET.put(objectKey, file.stream(), {
-    httpMetadata: { contentType },
-    customMetadata: {
-      productId,
-      documentType,
-      uploadedBy: user.email,
-    },
-  });
+  await uploadDocument(objectKey, file.stream(), contentType);
 
   try {
     await getDb().insert(documents).values({
@@ -122,7 +115,7 @@ export async function POST(request: Request) {
       createdAt,
     });
   } catch (error) {
-    await env.BUCKET.delete(objectKey);
+    await deleteDocument(objectKey);
     throw error;
   }
 
