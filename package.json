@@ -6,7 +6,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "install:ci": "bash scripts/install-pnpm.sh",
+    "install:ci": "npm ci",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
