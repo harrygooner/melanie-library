@@ -1,0 +1,340 @@
+{
+  "formula-2d0539dc67db": [
+    "Khuấy tan hoàn toàn pha A.",
+    "Thêm B.",
+    "Chuẩn bị riêng pha C trước khi cho vào hệ.",
+    "Thêm pha bảo quản E đã chuẩn bị riêng và điều chỉnh pH (nếu cần)"
+  ],
+  "formula-eea95efc8c8c": [
+    "Khuấy tan hoàn toàn pha A.",
+    "Thêm B.",
+    "Chuẩn bị riêng pha C trước khi cho vào hệ.",
+    "Thêm bảo quản và điều chỉnh pH (nếu cần)"
+  ],
+  "formula-c104445a01f7": [
+    "00 1. Chuẩn bị A1 ngâm trương nở.",
+    "Thêm A2,, đồng hóa 3000 rpm trong vòng 5 phú, khuấy trương nở hoàn toàn tạo hỗn hợp",
+    "00 gel. Đun nóng 80 độ",
+    "00 2. Chuẩn bị riêng B, đun nóng đến 75 độ, khuấy đều B đến khi đồng nhất.",
+    "50 3. Thêm B vào A, đồng hóa ở 3500 rpm trong 10 phút.",
+    "Thêm pha D, tiếp tục đồng hóa đồng nhất,",
+    "00 điều chỉnh pH khi cần"
+  ],
+  "formula-01e62a45509f": [
+    "Chuẩn bị A1, sừ dụng lực khuấy mạnh hoặc",
+    "50 đồng hóa 2500 rpm trong vòng 5 phút.",
+    "Thêm A2, khuấy trương nở và gia nhiệt A đến 75°C.",
+    "50 2. Gia nhiệt B đến 75°C.",
+    "00 3. Thêm B vào A, đồng hóa ở 3000 rpm trong 5 phút.",
+    "00 4. Làm nguội hệ đến 45°C, thêm lần lượt",
+    "00 các chất trong C và D. Điều chỉnh pH."
+  ],
+  "formula-291cfaa439bd": [
+    "00 1. Cho lần lượt từng chất ở A2 và A1, khuấy hòa tan hoàn toàn.",
+    "50 2. Cho pha B vào A.",
+    "Chuẩn bị pha D trong cốc riêng, thêm pha C, D vào hệ, khuấy đều.",
+    "Chỉnh pH."
+  ],
+  "formula-f5ab7c6d9c00": [
+    "Chuẩn bị A1, sừ dụng lực khuấy mạnh hoặc",
+    "00 đồng hóa 2500 rpm trong vòng 5 phút.",
+    "15 2. Thêm A2, khuấy trương nở và gia nhiệt A đến 75°C. p",
+    "Gia nhiệt B đến 75°C.",
+    "Thêm B vào A, đồng hóa ở 3000 rpm trong 10 phút.",
+    "00 4. Làm nguội hệ đến 45°C, thêm lần lượt",
+    "00 các chất trong C và D. Điều chỉnh pH. p"
+  ],
+  "formula-b13061af0c71": [
+    "Chuẩn bị trước pha A2, khuấy trương nở, gia nhiệt đến 75°C.",
+    "Chuẩn bị B2, phân tán đồng nhất hạt màu.",
+    "Cho B1 vào B2, gia nhiệt đến 75°C.",
+    "Thêm B vào A, nhũ hóa 3000-3500 rpm trong 10 phút. Làm lạnh hệ đến 45°C",
+    "Chuẩn bị riêng pha C1, C2 khuấy đến khi từng pha trong suốt. (bổ sung dần vào hỗn hợp AB chỉnh pH bằng và độ tan)",
+    "Chuẩn bị riêng pha E",
+    "Thêm lần lượt F, G, H.",
+    "Điều chỉnh pH 4.0."
+  ],
+  "formula-f319aea9008c": [
+    "00 1. Chuẩn bị pha B2, nghiền min titan/hạt. Sau đó, thêm B1 vào B2, gia nhiệt đến 75C. Phân tán đồng nhất",
+    "Chuẩn bị pha A, gia nhiệt đến 75C.",
+    "00 3. Cho dần B vào A, tốc độ đồng hóa 2500 - 3000 rpm trong 10 phút.",
+    "Thêm C, chỉnh độ nhớt hệ, tiếp tục đồng hóa đều hệ 5 phút.",
+    "00 5. Hạ nhiệt đến 40C.",
+    "Thêm D"
+  ],
+  "formula-0d549ea7a05d": [
+    "Chuẩn bị pha B2, nghiền min titan/hạt. Sau đó, thêm B1 vào B2, gia nhiệt đến 75C. Phân tán đồng nhất",
+    "00 2. Chuẩn bị pha A, gia nhiệt đến 75C.",
+    "Cho dần B vào A, tốc độ đồng hóa 2500 - 3000 rpm trong 10 phút.",
+    "Thêm C điều chỉnh độ nhớt hệ, tiếp tục đồng hóa đều hệ 5 phútt",
+    "00 5. Hạ nhiệt đến 40C. Thêm lần lượt D"
+  ],
+  "formula-42e033ad139a": [
+    "Khuấy tan hoàn toàn A1, phân tán Carbomer vào A1. Khuấy trương nở gel trong 10 phút. chem- Trung 2. Thêm dần các chất pha B, khuấy đều trong",
+    "00 Quốc 5 phút.",
+    "Chuẩn bị riêng pha C, D trong cốc riêng. chem- Trung thêm lần lượt khuấy vửa phải trong 5 phút, kết",
+    "00 Quốc thúc. Điều chỉnh pH cần thiết -"
+  ],
+  "formula-71dac5a882e0": [
+    "Chuẩn bị pha B2,nghiềnmintitan.Sau đó,, thêm B2vào B1,gia nhiệt đến75C.",
+    "Chuẩn bị pha A,gia nhiệt đến75C.",
+    "Chodần Bvào A,tốcđộđồng hóa 2500- 3000 rpm trong 5-10 phút.",
+    "Hạ nhiệt đến35C,thêm Dvà E."
+  ],
+  "formula-ab3aee88b62c": [
+    "Chuẩn bị pha B2, nghiền min titan. Sau đó,",
+    "00 thêm B2 vào B1, gia nhiệt đến 75C.",
+    "Chuẩn bị pha A, gia nhiệt đến 75C.",
+    "Cho dần B vào A, tốc độ đồng hóa 2500 - 3000 rpm trong 5 - 10 phút.",
+    "Hạ nhiệt đến 35C, thêm C",
+    "Chuẩn bị pha D trong cốc riêng, thêm D và E vào hệ."
+  ],
+  "formula-f75cbeea6c08": [
+    "Chuẩn bị pha A pre mix. Gia nhiệt pha A đến 75C",
+    "Chuẩn bị riêng B2, khuấy hòa tan hoàn toàn B2. Thêm B1 vào B2. Gia nhiệt pha B đến 75C.",
+    "Cho dần pha B vào pha A, đồng hóa ở tốc độ cao (2500rpm) trong 10 phút.",
+    "Hạ nhiệt đến 50°C, thêm B3, C, đồng hóa trong 2 phút.",
+    "Khuấy giải nhiệt đến 45°C. Thêm lần lượt từng chất pha C, D."
+  ],
+  "formula-7850650b95f8": [
+    "Chuẩn bị A1, sừ dụng lực khuấy mạnh hoặc đồng hóa 2500 rpm trong vòng 5 phút.",
+    "00 2. Thêm A2, khuấy trương nở và gia nhiệt A đến 75°C.",
+    "Gia nhiệt B đến 75°C.",
+    "00 3. Thêm B vào A, đồng hóa ở 3000 rpm trong 5 phút.",
+    "Làm nguội hệ đến 45°C, cho hõn hợp pha",
+    "00 C vào.",
+    "Thêm lần lượt các chất trong D, E. Điều",
+    "00 chỉnh pH."
+  ],
+  "formula-0e58e605f57d": [
+    "Chuẩn bị pha A, gia nhiệt đến 75C.",
+    "Cho dần B vào A, tốc độ đồng hóa 3000 rpm trong 10 phút.",
+    "Hạ nhiệt đến 40C, thêm lần lượt C, D, E F.",
+    "00 5. Chỉnh độ nhớt với G Chỉnh pH nếu cần"
+  ],
+  "formula-dae066a6d3a3": [
+    "Chuẩn bị pha A, khuấy phân tán trong 5 phút",
+    "00 và gia nhiệt đến 75C.",
+    "Chuẩn bị riêng pha B, gia nhiệt đến 75C.",
+    "00 4. Cho dần B vào A, đồng hóa với tốc độ 3000rpm trong 10-15 phút.",
+    "Làm lạnh hệ đến 40C, cho C, E và khuấy đều",
+    "00 đến khi nguội hoàn toàn.",
+    "20 6. Đ Iều chỉnh độ nhớt với D, khuấy đồng nhất"
+  ],
+  "formula-fc66cdc1c8e8": [
+    "Chuẩn bị pha A, đung đến 70 độ",
+    "Chuẩn bị pha B pha B đến 70°C.",
+    "Cho từ từ pha B vào pha A, nhũ hóa ở tốc độ",
+    "00 1500 - 2000 rpm trong 10 phút.",
+    "Chuẩn bị riêng pha C và hạ nhiệt hệ nhũ đến 40°C.",
+    "00 5. Cho lần lượt pha C, D, E vào hệ nhũ và khuấy đến khi hệ đồng nhất.",
+    "Cho pha F vào, khuấy đồng nhất, hệ sẽ đặc dần,",
+    "00 điều chỉnh độ đặc mong muốn.",
+    "00 7. Điều chỉnh pH 5.0 -"
+  ],
+  "formula-ac09396dfca5": [
+    "Ngâm trưởng nở pha A1 và A2. Cho A2 vào A1 khuấy đến khi trương nở hoàn toàn.",
+    "Chuẩn bị riêng C mix đều đến khi trong suốt, cho lần lượt từng pha vào pha A khuấy đều.",
+    "Chuẩn bị pha D cốc riêng. Cho vào hệ"
+  ],
+  "formula-2f1034cd2540": [
+    "Chuẩn bị A, thấm ướt và khuấy đều đến khi",
+    "00 trương nở hoàn toàn.",
+    "50 2. Chuẩn bị pha B, khuấy tan hoàn toàn trước khi cho vào hệ.",
+    "50 3. Cho pha C vào, khuấy tan hoàn toàn.",
+    "Cho lần lượt pha D, E.",
+    "50 5. Chỉnh lại pH bằng pha F. q.s"
+  ],
+  "formula-c3858c179ca2": [
+    "Khuấy tan A1, chuẩn bị riêng A2, thêm A2, khuấy phân tán trong 10 phút. Điều chỉnh bằng A3, đến khi HEC trương nở hoàn toàn.",
+    "Chuẩn bị pha B trong cốc riêng, khuấy tan hoàn toàn",
+    "Cho từ từ pha B vào pha A",
+    "Chuẩn bị pha C trong cốc riêng, cho dần vào hệ AB. Điều chỉnh pH nêu cần"
+  ],
+  "formula-c712d669a378": [
+    "Khuấy tan A1, chuẩn bị riêng A2, thêm A2, khuấy phân tán trong 10 phút. Điều chỉnh bằng A3, đến khi HEC trương nở hoàn toàn.",
+    "Chuẩn bị pha B, C trong cốc riêng. Pre mix đến khi tan hoàn toàn thì cho vào hệ.",
+    "Thêm bảo quản và chỉnh pH khi cần."
+  ],
+  "formula-88158c15dc79": [
+    "Pre mix pha A1. Cho A2 vào khuấy đến khi",
+    "00 trương nở hoàn toàn.",
+    "Chuẩn bị riêng B và C mix đều đến khi trong suốt, cho lần lượt từng pha vào pha A khuấy",
+    "00 đều.",
+    "Cho pha D vào chỉnh pH sản phẩm.",
+    "Cho bảo quản pha E vào."
+  ],
+  "formula-87eeb113fe1e": [
+    "Chuẩn bị pha A, gia nhiệt đến 75C. Phân tán đều tạo hệ đồng nhất tốc độ đồng hóa 2500 - 3000 rpm trong 5 ph",
+    "Chuẩn bị pha B2, cho B1 vào B2, đun đến 75 0 - 80 độ cho hệ đồng nhất.",
+    "Cho dần B vào A, tốc độ đồng hóa 3000 rpm trong 10-15 phút.",
+    "Hạ nhiệt đến 35C, thêm dần C, D và E."
+  ],
+  "formula-e69627cd6d0b": [
+    "00 1. Khuấy hòa tan hoàn toàn từng chất trong pha A",
+    "00 2. Thêm lần lượt từng chất pha B vào hệ.",
+    "Chuẩn bị riêng pha C, mix đều trước khi cho",
+    "00 vào hệ.",
+    "Chuẩn bị phan D1 trong cốc riêng, đun nóng",
+    "50 nhẹ 40-45 độ rồi khuấy đều trước khi cho vào hệ.",
+    "Thêm hỗn hợp D2 đã khuấy tan hoàn toàn, khuấy đều trong vòng 5 phút.",
+    "Thêm E, xem lại màu sản phẩm"
+  ],
+  "formula-ec676e9f374f": [
+    "Chuẩn bị pha A, khuấy tan hoàn toàn. Cho pha B vào khuấy đến khi trong suốt và HEC tan",
+    "00 hoàn toàn.",
+    "Thêm lần lượt các chất trong pha C vào A.",
+    "00 Khuấy tan hoàn toàn.",
+    "00 3. Tiếp tục thêm lần lượt các chất trong C và D.",
+    "Chuẩn bị riêng pha E trước khi cho vào hệ.",
+    "00 5. Thêm B từ từ và đồng thời khuấy nhẹ trong 10 phút.",
+    "50 5. Thêm F, điều chỉnh pH."
+  ],
+  "formula-d9f4a8f1c64e": [
+    "Chuẩn bị 2 pha riêng biệt, khuấy hòa tan hoàn toàn từng pha.",
+    "Thêm dần B vào A."
+  ],
+  "formula-4daaad4fd1c7": [
+    "Chuẩn bị pha C trong cốc riêng, thêm pha C vào hệ, khuấy đều.",
+    "Thêm D chỉnh pH. 50"
+  ],
+  "formula-46ad92e59548": [
+    "05 1. Chuẩn bị pha A, khuấy tan hoàn toàn. Cho pha B vào khuấy đến khi trong suốt và HEC tan",
+    "00 hoàn toàn.",
+    "Thêm lần lượt các chất trong pha C vào A.",
+    "00 Khuấy tan hoàn toàn.",
+    "00 3. Tiếp tục thêm lần lượt các chất trong C và D.",
+    "Chuẩn bị riêng pha E trước khi cho vào hệ.",
+    "Thêm B từ từ và đồng thời khuấy nhẹ trong 10 phút.",
+    "Thêm F, điều chỉnh pH."
+  ],
+  "formula-1b84e109a789": [
+    "Khuấy hòa tan hoàn toàn pha A.",
+    "00 2. Thêm lần lượt từng chất trong B vào A.",
+    "Chuẩn bị riêng pha C rồi cho vào (A+B).",
+    "10 4. Thêm D và kết thúc."
+  ],
+  "formula-ed1c850db82a": [
+    "Khuấy trương nở pha A1.",
+    "Cho lần lượt từng chất trong A2 vào A1 và khuấy tan hoàn toàn, gia nhiệt A đến 75°C.",
+    "Chuẩn bị pha B, gia nhiệt đến 75C.",
+    "Cho B vào A, đồng hóa 3000 rpm trong 10 phút.",
+    "Làm lạnh hệ đến 45C, lần lượt thêm từng chất trong pha C, D và khuấy đến đồng nhất."
+  ],
+  "formula-dda5069a75af": [
+    "Chuẩn bị pha A và gia nhiệt đến 80 - 85C.",
+    "Phân tán pha B2 vào pha B1, khuấy đều và gia nhiệt 80 - 85C.",
+    "Cho A dần vào B, đồng hóa ở tốc dộ 1500 - 2000 rpm.",
+    "Làm lạnh đến 45C, cho lần lượt các chất trong pha C.",
+    "Đến 35C, cho pha D."
+  ],
+  "formula-e7d4646f740b": [
+    "Chuẩn bị pha A và gia nhiệt đến 80 - 85C.",
+    "Phân tán pha B2 vào pha B1, khuấy đều và",
+    "00 gia nhiệt 80 - 85C.",
+    "Cho A dần vào B, đồng hóa ở tốc dộ 1500 - 2000 rpm.",
+    "Làm lạnh đến 45C, cho lần lượt các chất trong pha C.",
+    "00 5. Đến 35C, cho pha D."
+  ],
+  "formula-be6ef6d52e24": [
+    "00 1. Chuẩn bị A, gia nhiệt đến 75 độ C đến khi tan chảy hoàn toàn.",
+    "Hạ nhiệt và duy trì A ở 75độ C, thêm B. *** mix riêng pha B trước khi thêm vào A, sừ dụng đồng hóa hoặc máy nghiền màu phân tán",
+    "50 mịn màu trong B.",
+    "Chuẩn bị riêng C, gia nhiệt C đến 75 độ C.",
+    "Nhũ hóa: thêm từ từ C vào AB, đồng hóa",
+    "00 1500-2500 rpm trong 2 phút.",
+    "Hạ nhiệt đến 50độ C, thêm lần lượt các chất",
+    "00 trong D và E. Đồng hóa tiếp tục đến 5 phút. Kết thúc."
+  ],
+  "formula-f5307acfb8a4": [
+    "Chuẩn bị pha A: Phân tán đồng đều các",
+    "00 pigment.",
+    "Cho lần lượt các chất trong pha B vào, đun nóng",
+    "00 đến 75-80ºC, khuấy đều.",
+    "Hạ nhiệt đến 72ºC, thêm C, khuấy đều.",
+    "Hạ nhiệt đến 55ºC, thêm D, khuấy đều.",
+    "00 5. Chiết vào bao bì thủy tinh ở 50-55ºC và chờ đến khi sản phẩm nguội hoàn toàn."
+  ],
+  "formula-23c920450d6b": [
+    "Chuẩn bị A, gia nhiệt đến 70 độ C đến khi tan",
+    "00 chảy hoàn toàn.",
+    "Hạ nhiệt và duy trì A ở 75 độ C, thêm B. *** mix riêng pha B trước khi thêm vào A, sừ",
+    "00 dụng đồng hóa hoặc máy nghiền màu phân tán mịn màu trong B.",
+    "00 3. Chuẩn bị riêng C, gia nhiệt C đến 75 độ C.",
+    "Nhũ hóa: thêm từ từ C vào AB, đồng hóa 3000 rpm trong 10 phút.",
+    "Hạ nhiệt đến 50 độ C, thêm lần lượt các chất trong D và E. Đồng hóa tiếp tục đến 5 phút. Kết",
+    "10 thúc."
+  ],
+  "formula-6c135f70f38c": [
+    "00 1. Chuẩn bị phân tán hoàn toàn A1 thêm vào A2",
+    "80 khuấy để trương nở hoàn toàn.",
+    "Thêm lần lượt từng chất trong B, C và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-a75b9d9d8e55": [
+    "Chuẩn bị và khuấy tan A1, hòa HEC khuấy đều",
+    "00 trong 10 phút, thêm A2 và tiếp tục khuấy trong 5 phút để HEC trương nở hoàn toàn.",
+    "Thêm lần lượt từng chất trong B, C.",
+    "Chuẩn bị riêng D, khuấy hòa tan trong suốt",
+    "80 trước khi cho vào hệ. Tương tự với pha E.",
+    "Thêm F và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-57c31b5c7a20": [
+    "Chuẩn bị và khuấy tan A1, cho dần A2 vào hệ khuấy đồng nhất.",
+    "Thêm B",
+    "Chuẩn bị riêng C, khuấy hòa tan trong suốt trước khi cho vào hệ. Tương tự với pha D.",
+    "Thêm C, D E làn lượt vào hệ và điều chỉnh pH",
+    "50 4.0 - 4.5."
+  ],
+  "formula-e7c8376dbf12": [
+    "Chuẩn bị và khuấy tan A1, cho dần A2 vào hệ khuấy đồng nhất.",
+    "Thêm B",
+    "Chuẩn bị riêng C, khuấy hòa tan trong suốt trước khi cho vào hệ. Tương tự với pha D.",
+    "Thêm C, D E làn lượt vào hệ và điều chỉnh pH",
+    "50 4.0 - 4.5."
+  ],
+  "formula-97d9dc4b7a88": [
+    "Chuẩn bị A2 pre mix trước hi cho vào A1, cho",
+    "00 A3 vào khuấy hòa toàn trương nở hoàn toàn.",
+    "Thêm lần lượt từng chất trong B, C.",
+    "Chuẩn bị riêng D, khuấy hòa tan trong suốt trước khi cho vào hệ. Tương tự với pha E.",
+    "Thêm F và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-a710ca3b6fd1": [
+    "Chuẩn bị A2 pre mix trước khi cho vào A1, cho",
+    "00 A3 vào khuấy hòa toàn trương nở hoàn toàn.",
+    "25 2. Thêm lần lượt từng chất trong B, C.",
+    "Chuẩn bị riêng D, khuấy hòa tan trong suốt",
+    "00 trước khi cho vào hệ. Tương tự với pha E.",
+    "Thêm F và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-24062b46bae6": [
+    "Chuẩn bị A2 pre mix trước hi cho vào A1, cho",
+    "00 A3 vào khuấy hòa toàn trương nở hoàn toàn.",
+    "Thêm lần lượt từng chất trong B, C.",
+    "Chuẩn bị riêng D, khuấy hòa tan trong suốt trước khi cho vào hệ. Tương tự với pha E.",
+    "50 4. Thêm F và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-58ad376072d9": [
+    "00 1. Chuẩn bị A2 pre mix trước khi cho vào A1, cho A3 vào khuấy hòa toàn trương nở hoàn toàn.",
+    "Thêm lần lượt từng chất trong B, C.",
+    "Chuẩn bị riêng D, khuấy hòa tan trong suốt trước khi cho vào hệ. Tương tự với pha E.",
+    "Thêm F và điều chỉnh pH 4.0 - 4.5."
+  ],
+  "formula-4e83e760f1f0": [
+    "Chuẩn bị trước pha A, ngâm trương nở Sepimaz Zen, gia nhiệt đến 75°C",
+    "Chuẩn bị B2, phân tán đồng nhất hạt màu.",
+    "Cho B1 vào B2, gia nhiệt đến 75°C.",
+    "Thêm B vào A, nhũ hóa 3000-3500 rpm trong 10 phút. Làm lạnh hệ đến 45°C",
+    "Chuẩn bị riêng pha C1, C2 khuấy đến khi từng pha trong suốt. (bổ sung dần vào hỗn hợp AB chỉnh pH bằng và độ tan)",
+    "Chuẩn bị riêng pha E",
+    "Thêm lần lượt F, G, H.",
+    "Điều chỉnh pH 4.0."
+  ],
+  "formula-c1e18f00f8ba": [
+    "Cân pha A, ngâm trương nở trước 30ph. Đồng",
+    "00 hóa hoàn toàn, cho đồng nhất",
+    "Chuẩn bị B trong cốc riêng, khuấy đồng nhất.",
+    "50 3. Cho từ từ B vào A, Đồng hóa 3500--4000rpm, 15ph đến khi đồng nhất hoàn toàn",
+    "50 4. Thêm C đồng hóa 5ph, điều chỉnh pH nếu cần."
+  ]
+}
