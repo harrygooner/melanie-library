@@ -14,6 +14,7 @@
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
     "db:migrate:remote": "drizzle-kit push",
+    "documents:import": "node scripts/import-documents.mjs",
     "deploy": "npm run build",
     "assets:generate": "python3 scripts/generate-formula-assets.py && python3 scripts/generate-hpc-catalog.py"
   },

@@ -1,0 +1,100 @@
+{
+  "source": "document/OneDrive_2026-09-22.zip",
+  "sourceBytes": 2140556035,
+  "generatedAt": "2026-09-22",
+  "matchingPolicy": "Exact normalized supplier + ingredient folder name only; no fuzzy or variant-to-base matching.",
+  "limits": {
+    "maxFileBytes": 15728640,
+    "allowedExtensions": [
+      "pdf",
+      "doc",
+      "docx",
+      "xls",
+      "xlsx",
+      "ppt",
+      "pptx",
+      "jpg",
+      "jpeg",
+      "png",
+      "zip"
+    ]
+  },
+  "catalogMatches": [
+    { "supplier": "Oat Cosmetics", "folder": "aurafirm N", "id": "spc-3c81a4d8e98f", "files": 77, "plannedFiles": 77 },
+    { "supplier": "Oat Cosmetics", "folder": "aurafirm P", "id": "spc-b4e5a4f2d500", "files": 68, "plannedFiles": 68 },
+    { "supplier": "Oat Cosmetics", "folder": "aurafirm S", "id": "spc-c2b8f672c41a", "files": 63, "plannedFiles": 63 },
+    { "supplier": "Oat Cosmetics", "folder": "AvenaPLex", "id": "spc-e8dd4002d928", "files": 153, "plannedFiles": 147 },
+    { "supplier": "Oat Cosmetics", "folder": "EcoPep", "id": "spc-7cf14a87e277", "files": 87, "plannedFiles": 77 },
+    { "supplier": "Oat Cosmetics", "folder": "Glucaveen", "id": "spc-c4447b08b6b9", "files": 59, "plannedFiles": 58 },
+    { "supplier": "Oat Cosmetics", "folder": "Oat Lipid e", "id": "spc-ce5b13ea5739", "files": 120, "plannedFiles": 120 },
+    { "supplier": "Oat Cosmetics", "folder": "Rejuvaveen", "id": "spc-c838bdf5c6d7", "files": 62, "plannedFiles": 59 }
+  ],
+  "unmatchedFolders": [
+    { "folder": "aurafirm N Unpreserved", "files": 50, "reason": "no-exact-catalog-id" },
+    { "folder": "aurafirm P Unpreserved", "files": 52, "reason": "no-exact-catalog-id" },
+    { "folder": "aurafirm S Unpreserved", "files": 49, "reason": "no-exact-catalog-id" },
+    { "folder": "Dermiveil", "files": 87, "reason": "no-exact-catalog-id" },
+    { "folder": "Oat COM ORG", "files": 70, "reason": "no-exact-catalog-id" },
+    { "folder": "Oat COM USP", "files": 144, "reason": "no-exact-catalog-id" },
+    { "folder": "Virgin Poppy Seed Oil", "files": 56, "reason": "no-exact-catalog-id" }
+  ],
+  "documentTypes": {
+    "Certificate": 458,
+    "Composition": 12,
+    "COO": 12,
+    "Other": 78,
+    "Presentation": 36,
+    "Product Information": 44,
+    "RIS": 6,
+    "SDS": 14,
+    "TDS": 9
+  },
+  "totals": {
+    "zipFiles": 1198,
+    "exactMatchedFiles": 689,
+    "plannedFiles": 669,
+    "skippedFiles": 529,
+    "skippedByReason": {
+      "no-ingredient-folder": 1,
+      "no-exact-catalog-id": 508,
+      "unsupported-extension": 7,
+      "over-15mb-limit": 13
+    },
+    "imported": 0,
+    "duplicateExisting": 0,
+    "failed": 0
+  },
+  "verification": {
+    "status": "not-run",
+    "samples": []
+  },
+  "oversizeFiles": [
+    "AvenaPLex/CSR/AvenaPLex Sustainability Report 0926 HR.pdf",
+    "AvenaPLex/Marketing and Sales/Presentations/AvenaPLex Presentation 0926 HR.pdf",
+    "AvenaPLex/Marketing and Sales/AvenaPLex Magazine 26 Digital HR.pdf",
+    "AvenaPLex/Technical/Data Pack/AvenaPLex Data Pack 0926 HR.pdf",
+    "AvenaPLex/Technical/Formulation Advice and Inspiration/AvenaPLex Formulation Inspiration 0926.pdf",
+    "EcoPep/EcoPep Hair/Marketing and Sales/Presentation/EcoPep Hair Presentation 0826 HR.pdf",
+    "EcoPep/EcoPep Hair/Technical/Data Pack/EcoPep Hair Data Pack 0826 V3.1.pdf",
+    "EcoPep/EcoPep Skin/Marketing and Sales/EcoPep Vertical Poster.pdf",
+    "EcoPep/EcoPep Skin/Technical/Technical Articles/In Cosmetics Technical Seminar_Natural Peptide (EcoPep) Targeting Slow Ageing from Cellular Level to Visible Transformation_2025.pdf",
+    "EcoPep/Regulatory/Statements/EcoPep Ingredient Sustainability Profile 2025 LR.pdf",
+    "Glucaveen/CSR/Glucaveen Sustainability Report 0125.pdf",
+    "Rejuvaveen/Marketing and Sales/Media kits/Cellular longevity and skin radiance (2).pdf",
+    "Rejuvaveen/Technical/Data Pack/Rejuvaveen DataPack 0925 HR.pdf"
+  ],
+  "unsupportedFiles": [
+    "AvenaPLex/Marketing and Sales/Launch Video/AvenaPLex Launch Video 0926.mp4",
+    "EcoPep/CSR/NEW EcoPep Sustainability Video.mp4",
+    "EcoPep/EcoPep Skin/Marketing and Sales/Launch Video/EcoPep Skin _Shorter Summary_Square.mp4",
+    "EcoPep/EcoPep Skin/Marketing and Sales/Launch Video/NEW EcoPep Skin Launch Video V4 (2).mp4",
+    "EcoPep/EcoPep Skin/Marketing and Sales/Launch Video/No Subtitles NEW EcoPep Skin Launch Video V4.mp4",
+    "EcoPep/EcoPep Skin/Marketing and Sales/Media Kit/EcoPep interactive screen V2 (1).mp4",
+    "Rejuvaveen/Technical/Formulation Advice and Database/Formulation Advice and Database.lnk"
+  ],
+  "notes": [
+    "The root-level OC Product Portfolio PDF has no ingredient folder and is skipped.",
+    "The Oat COM catalog item has no exact Oat COM folder in this ZIP; Oat COM ORG and Oat COM USP are retained in the skipped list.",
+    "The report is a preflight snapshot. Run the importer in dry-run mode again immediately before execute if the ZIP or database has changed."
+  ]
+}
